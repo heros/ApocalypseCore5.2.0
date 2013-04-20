@@ -1,0 +1,1 @@
+RENAME TABLE `trinity_string` TO `apocalypse_string`;
