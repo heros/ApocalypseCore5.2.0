@@ -166,12 +166,12 @@ int WorldSocket::SendPacket(WorldPacket const& pct)
     WorldPacket const* pkt = &pct;
 
     // Empty buffer used in case packet should be compressed
-    WorldPacket buff;
-    if (m_Session && pkt->size() > 0x400)
-    {
-        buff.Compress(m_Session->GetCompressionStream(), pkt);
-        pkt = &buff;
-    }
+    //WorldPacket buff;
+    //if (m_Session && pkt->size() > 0x400)
+    //{
+        //buff.Compress(m_Session->GetCompressionStream(), pkt);
+        //pkt = &buff;
+    //}
 
     if (m_Session)
         sLog->outTrace(LOG_FILTER_OPCODES, "S->C: %s %s", m_Session->GetPlayerInfo().c_str(), GetOpcodeNameForLogging(pkt->GetOpcode()).c_str());
