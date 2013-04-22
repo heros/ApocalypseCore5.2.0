@@ -82,7 +82,6 @@ char const* CONF_mpq_list[]=
 {
     "world.MPQ",
     "art.MPQ",
-    "world2.MPQ",
     "expansion1.MPQ",
     "expansion2.MPQ",
     "expansion3.MPQ",
