@@ -17,6 +17,7 @@ set(scripts_STAT_SRCS
   Spells/spell_dk.cpp
   Spells/spell_quest.cpp
   Spells/spell_warrior.cpp
+  Spells/spell_monk.cpp
   Spells/spell_generic.cpp
   Spells/spell_warlock.cpp
   Spells/spell_priest.cpp
