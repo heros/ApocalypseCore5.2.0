@@ -72,9 +72,10 @@ enum LoginResult
 
 enum ExpansionFlags
 {
-    POST_BC_EXP_FLAG                            = 0x2,
-    PRE_BC_EXP_FLAG                             = 0x1,
-    NO_VALID_EXP_FLAG                           = 0x0
+    POST_WOTLK_EXP_FLAG = 0x4, 
+    POST_BC_EXP_FLAG = 0x2, 
+    PRE_BC_EXP_FLAG = 0x1, 
+    NO_VALID_EXP_FLAG = 0x0
 };
 
 struct RealmBuildInfo
